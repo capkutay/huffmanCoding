@@ -1,0 +1,9 @@
+Run from jar with following arguments passed to Huffman.java:
+java Huffman (-c|-u) [-v] [-f]  infile outfile
+
+where:
+(-c|-u) stands for either "-c" (for compress), or "-u"(for uncompress)
+[-v] stands for an optional "-v" flag (for verbose)
+[-f] stands for an optional "-f" flag, that forces compression even if the compressed file will be larger than the original file
+infile is the input file
+outfile is the output file
